@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.profile-card {
+    height: 700px;
+    width: 600px;
+    margin: 100px auto;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.top-container {
+    background-color: rgb(74, 74, 255);
+    height: 30%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    position: relative;
+}
+
+.bottom-container {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.profile-pic-container {
+    height: 220px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(65, 65, 182);
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-pic {
+    height: 200px;
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 4vh;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.work {
+    font-size: 2.5vh;
+    color: dimgray;
+    margin: 0 auto;
+}
+
+.social-media-icons {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.icon {
+    padding: 0 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.button {
+    font-size: 2.5vh;
+    color: white;
+    background-color: rgb(74, 74, 255);
+    height: 60px;
+    width: 200px;    
+    border-radius: 50px;
+    margin: 0 20px;
+}
+
+.social-media-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    font-size: 30px;
+}
+
+.social-media-button{
+    height: 30px;
+    margin: 0 10px;
+}
+
+.interact-button{
+    padding: 0 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.like-button{
+    border-right: 1px solid dimgray;
+}
+
+.comment-button{
+    border-left: 1px solid dimgray;
+    border-right: 1px solid dimgray;
+}
+
+.share-button{
+    border-left: 1px solid dimgray;
+}
